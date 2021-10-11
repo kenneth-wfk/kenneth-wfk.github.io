@@ -11,13 +11,17 @@ Rename an existing container:
 Run a command in a new container:  
 `docker run [IMAGE] [COMMAND]`
 
-`docker run --rm [IMAGE]` – removes a container after it exits.
+Removes a container after it exits:  
+`docker run --rm [IMAGE]`
 
-`docker run -td [IMAGE]` – starts a container and keeps it running.
+Starts a container and keeps it running:  
+`docker run -td [IMAGE]`
 
-`docker run -it [IMAGE]` – starts a container, allocates a pseudo-TTY connected to the container’s stdin, and creates an interactive bash shell in the container.
+Starts a container, allocates a pseudo-TTY connected to the container’s stdin, and creates an interactive bash shell in the container:  
+`docker run -it [IMAGE]`
 
-`docker run -it-rm [IMAGE]` – creates, starts, and runs a command inside the container. Once it executes the command, the container is removed.
+creates, starts, and runs a command inside the container. Once it executes the command, the container is removed:  
+`docker run -it-rm [IMAGE]`
 
 Delete a container (if it is not running):  
 `docker rm [CONTAINER]`
@@ -63,11 +67,13 @@ Below you fill find all the necessary commands for working with Docker images.
 Create an image from a Dockerfile:  
 `docker build [URL]`
 
-`docker build -t` – builds an image from a Dockerfile in the current directory and tags the image
+Create an image from a Dockerfile in the current directory and tags the image:  
+`docker build -t` 
 
-`docker build -t <tag-name> -f <file-name> .` – builds an image from a custom Dockerfile "filename" in current folder and tag the image with "tag-name"
+Create an image from a custom Dockerfile "filename" in current folder and tag the image with "tag-name":  
+`docker build -t <tag-name> -f <file-name> .` – 
 
-Pull an image from a registry:    
+Pull an image from a registry:  
 `docker pull [IMAGE]`
 
 Push an image to a registry:  
@@ -96,7 +102,8 @@ Once you set up your containers, you will need to know how to get all the import
 List running containers:  
 `docker ps`
 
-`docker ps -a` – lists both running containers and ones that have stopped
+Lists both running containers and ones that have stopped:  
+`docker ps -a`
 
 List the logs from a running container:  
 `docker logs [CONTAINER]`
