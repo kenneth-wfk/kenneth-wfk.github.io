@@ -1,2 +1,4 @@
-theme: jekyll-theme-leap-day
+title: Kenneth Wiki Repo
+description: This is a repo library hosted in Github Pages
 show_downloads: false
+theme: jekyll-theme-leap-day
