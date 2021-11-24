@@ -23,3 +23,7 @@ Restart your machine
    Open the Microsoft Store and select your favorite Linux distribution.
    
 
+# Auto Installation Steps
+1. Download Docker Desktop 
+2. Install 
+
